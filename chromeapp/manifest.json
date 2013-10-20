@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Bible App",
+  "version": "1",
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "icons": { "128": "icon.png" },
+  "permissions": [
+    "http://labs.bible.org/api/?passage=votd&type=json&callback=?"
+  ]
+}
